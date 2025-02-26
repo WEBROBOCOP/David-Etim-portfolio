@@ -4,7 +4,7 @@ export const projects = [
     title: "Hotel-booking app",
     description: "A full-stack hotel booking application using the MERN stack",
     technologies: ["React", "Javascript", "Tailwind CSS"],
-    github: "https://git@github.com:WEBROBOCOP/hotel-booking-app.git",
+    github: "https://github.com/WEBROBOCOP/hotel-booking-app.git",
     demo: "https://hotel-booking-demo.com",
     image: "/path-to-image.jpg"
   },
