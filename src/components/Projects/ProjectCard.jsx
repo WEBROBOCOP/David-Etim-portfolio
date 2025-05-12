@@ -17,6 +17,15 @@ const ProjectCard = ({ project }) => {
         <div className="text-gray-400 text-sm">{project.title}.js</div>
       </div>
       
+      {/* Project Image */}
+      <div className="w-full h-48 overflow-hidden">
+        <img 
+          src={project.image} 
+          alt={project.title}
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      
       <div className="p-6">
         <div className="text-gray-300 mb-4">
           <span className="text-green-400">const</span>{" "}

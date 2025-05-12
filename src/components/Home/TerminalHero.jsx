@@ -44,7 +44,7 @@ const TerminalHero = () => {
               
               <div className="text-gray-300 mb-6">
                 <p className="mb-4">
-                  Hello! I'm David Etim. I'm an aspiring Full-Stack Developer skilled in
+                  Hello! I'm David Etim. A Full-Stack Developer skilled in
                   the MERN stack, with a passion for building dynamic, user-friendly web applications.
                 </p>
                 <p>
@@ -64,18 +64,19 @@ const TerminalHero = () => {
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-300">
-                <div>javascript</div>
-                <div>react</div>
-                <div>node.js</div>
-                <div>mongodb</div>
-                <div>express.js</div>
-                <div>git</div>
-                <div>html5</div>
-                <div>css</div>
-                <div>tailwind</div>
+                <div>Javascript</div>
+                <div>React</div>
+                <div>Node.js</div>
+                <div>Mongodb</div>
+                <div>Express.js</div>
+                <div>Git</div>
+                <div>Html5</div>
+                <div>Css</div>
+                <div>Tailwind</div>
                 <div>Next.js</div>
                 <div>Typescript</div>
-              </div>
+                <div>Cloudinary</div>
+             </div>
             </div>
           </div>
         </motion.div>
