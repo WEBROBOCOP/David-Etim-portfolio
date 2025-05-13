@@ -16,8 +16,8 @@ const About = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/David-Etim-Edwin(basiccv).pdf';
-    link.download = 'David-Etim-Edwin-CV.pdf';
+    link.href = '/David Etim (ENG) CV.pdf';
+    link.download = 'David-Etim-CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -61,31 +61,56 @@ const About = () => {
           </div>
 
           <div className="mb-12">
-            <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
-            <div className="space-y-4">
+            <h3 className="text-xl font-semibold text-white mb-4">EDUCATION</h3>
+            <div className="space-y-8">
               <div>
-                <h4 className="text-yellow-400">Full Stack Web Developer Training</h4>
-                <p className="text-gray-400">Digital Career institute • 12/2024 - Present</p>
-                <p className="text-gray-500">Berlin, Germany</p>
+                <h4 className="text-yellow-400 font-bold text-lg">Full Stack Web Developer Training</h4>
+                <span className="font-semibold text-white">Digital Career institute GmbH</span>
+                <div className="text-gray-400 text-sm mt-1">12/2024 &bull; Berlin, Germany</div>
+                <ul className="list-disc list-inside text-gray-400 mt-2 ml-4">
+                  <li>Developed full-stack web applications Using MongoDB, Express.js, React, and Node.js, With expertise in RESTful API Integration, Real-Time Applications, And AI-Driven Solutions.</li>
+                  <li>Completed German language training Up To B1 Level Through Lingoda While Attending A One-Year Full-Stack Development Course At DCI.</li>
+                  <li>Implemented responsive front-end designs Using HTML, CSS, JavaScript, React, and Tailwind CSS, Ensuring Seamless User Experiences Across Devices.</li>
+                  <li>Utilized version control and testing tools Like Git, GitHub, Postman, And Unit Testing Frameworks To Debug, Deploy, And Maintain High-Quality Software Solutions.</li>
+                </ul>
               </div>
               <div>
-                <h4 className="text-yellow-400">Instrumentation and Control Engineering</h4>
-                <p className="text-gray-400">Heritage polytechnic • 06/2012 - 06/2016</p>
-                <p className="text-gray-500">EKET, Nigeria</p>
+                <h4 className="text-yellow-400 font-bold text-lg">Higher National Diploma</h4>
+                <span className="font-semibold text-white">Heritage Polytechnic</span>
+                <div className="text-gray-400 text-sm mt-1">04/2011 – 10/2015 &bull; Eket, Akwa Ibom, Nigeria</div>
+                <ul className="list-disc list-inside text-gray-400 mt-2 ml-4">
+                  <li>Designed and developed a functional speaker system, integrating acoustic principles and electrical engineering concepts, as part of a hands-on course/thesis project.</li>
+                </ul>
               </div>
             </div>
           </div>
 
           <div className="mb-12">
-            <h3 className="text-xl font-semibold text-white mb-4">Work Experience</h3>
-            <div>
-              <h4 className="text-yellow-400">Productive Associate</h4>
-              <p className="text-gray-400">AutoProduction/Tesla • 11/2022 - 02/2024</p>
-              <p className="text-gray-500">Berlin, Germany</p>
-              <ul className="list-disc list-inside text-gray-400 mt-2">
-                <li>Played a key role in ensuring product quality through rigorous inspections</li>
-                <li>Collaborated with cross-functional teams, exceeding targets by 50%</li>
-              </ul>
+            <h3 className="text-xl font-semibold text-white mb-4">WORK EXPERIENCE</h3>
+            <div className="space-y-8">
+              <div>
+                <h4 className="text-yellow-400 font-bold text-lg">Production Associate</h4>
+                <span className="font-semibold text-white">Gigafactory Berlin-Brandenburg</span>
+                <div className="text-gray-400 text-sm mt-1">11/2022 – 02/2024 &bull; Berlin, Germany</div>
+                <ul className="list-disc list-inside text-gray-400 mt-2 ml-4">
+                  <li>Manufactures Batteries, Powertrains, Seats, And Model Y Components, Including Casting, Stamping, Painting, Drivetrain, And Final Assembly.</li>
+                  <li>Facilitated seamless communication and reporting Across Cross-Functional Teams, Ensuring Efficient Collaboration Between Software Development And Production Operations</li>
+                  <li>Executed rigorous testing and troubleshooting Processes For Web Applications, Identifying And Resolving Critical Bugs To Uphold High-Quality Standards In Manufacturing Technologies.</li>
+                  <li>Collaborated effectively with diverse teams To Implement Quality Assurance Practices, Enhancing System Reliability And Alignment With Gigafactory Production Goals.</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-yellow-400 font-bold text-lg">Technical Support & Customer Service</h4>
+                <span className="font-semibold text-white">Hase</span>
+                <div className="text-gray-400 text-sm mt-1">02/2022 – 11/2025 &bull; Berlin, Germany</div>
+                <ul className="list-disc list-inside text-gray-400 mt-2 ml-4">
+                  <li>Provided technical support for daily operations, which included managing manual data entry and maintaining office organization to ensure a smooth workflow.</li>
+                  <li>Welcomed guests and efficiently assisted with skateboard rentals and sales, helping to create a friendly atmosphere that enhanced customer experience.</li>
+                  <li>Produced and edited engaging photo and video content for social media and marketing, which helped boost event documentation and increased visibility.</li>
+                  <li>Participated in local art exhibitions and cultural events like "48 Stunden Neukölln," promoting community engagement and showcasing our commitment to local culture.</li>
+                  <li>Contributed to neighborhood initiatives by supporting artistic collaborations, which helped strengthen local outreach and foster community connections.</li>
+                </ul>
+              </div>
             </div>
           </div>
 
