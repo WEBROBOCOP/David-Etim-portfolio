@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -8,6 +9,8 @@ const ContactForm = () => {
     email: '',
     message: ''
   });
+  const [showPopup, setShowPopup] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -18,8 +21,12 @@ const ContactForm = () => {
       '7sFoyRvyvjMK-nU-g'
     ).then(
       (result) => {
-        alert('Message sent!');
+        setShowPopup(true);
         setFormData({ name: '', email: '', message: '' });
+        setTimeout(() => {
+          setShowPopup(false);
+          navigate('/');
+        }, 2000); // 2 seconds before redirect
       },
       (error) => {
         alert('Failed to send message, please try again.');
@@ -115,6 +122,15 @@ const ContactForm = () => {
             </div>
           </div>
         </motion.div>
+        {/* Popup */}
+        {showPopup && (
+          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
+            <div className="bg-gray-900 text-white px-8 py-6 rounded-lg shadow-lg border border-green-400 text-center">
+              <h2 className="text-2xl font-bold mb-2 text-green-400">Message Sent!</h2>
+              <p className="mb-0">Thank you for reaching out. Redirecting to home...</p>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
