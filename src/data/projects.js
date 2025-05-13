@@ -6,7 +6,7 @@ export const projects = [
     technologies: ["React", "Javascript", "Tailwind CSS", "AI PROMPTING", "AI Illustration"],
     github: "https://github.com/WEBROBOCOP/storybook-creator",
     demo: "https://storybook-creator.onrender.com/",
-    image: "/src/assets/storybook-creator.onrender.png",
+    image: "/storybook-creator.onrender.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects = [
     technologies: ["React", "Javascript", "Tailwind CSS"],
     github: "https://github.com/WEBROBOCOP/hotel-booking-app.git",
     demo: "https://hotel-booking-demo.com",
-    image: "/src/assets/htl.png"
+    image: "/htl.png"
   },
 
   {
@@ -25,7 +25,7 @@ export const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
     github: "https://github.com/WEBROBOCOP/FullStack-E-commerce.git",
     demo: "https://fullstack-e-commerce-site",
-    image: "/src/assets/E-commerce-app.png"
+    image: "/E-commerce-app.png"
   },
 
   {
@@ -35,10 +35,8 @@ export const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
     github: "https://github.com/WEBROBOCOP/FullStack-Blogging-App.git",
     demo: "https://fullstack-blogging-site",
-    image: "/src/assets/weblog-render.png"
+    image: "/weblog-render.png"
   },
-
-
 
   {
     id:5,
@@ -47,7 +45,7 @@ export const projects = [
     technologies: ["React", "Node.js", "framer-motion", "Express.js", "Tailwind CSS"],
     github: "https://github.com/WEBROBOCOP/David-Etim-portfolio.git",
     demo: "https://david-etim-portfolio.onrender.com/",
-    image: "src/assets/David-Etim.png"
+    image: "/David-Etim.png"
   },
   // Add more projects...
 ]; 
